@@ -1,0 +1,397 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title> 
+    <link href="style/style.css" rel="stylesheet" type="text/css" />
+    <script language="javascript" type="text/javascript" src="My97DatePicker/WdatePicker.js"></script> 
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+ <tr>
+  <td  align="left" valign="top" width="240px"> 
+   <iframe id="LeftFrame" src="left.htm" width="230px" style=" border:0px;" ></iframe>
+   <script type="text/javascript">
+       var Heights = document.documentElement.clientHeight;
+       document.getElementById("LeftFrame").style.height = Heights + "px";
+   </script>
+  </td>
+  <td align="left" valign="top"  class="RighrTabf">
+   <div class="ListContent Bordbg">
+     <div class="Titles">公共区域维修记录</div>
+     <table width="100%" cellpadding="0" cellspacing="0"> 
+      <tr>
+       <td width="6%" class="TD1">序号</td>
+       <td width="11%" class="TD1">日期</td>
+       <td width="13%" class="TD1">维修部位</td>
+       <td class="TD1">维修内容 </td>
+       <td width="15%" class="TD1">所属系统</td>
+       <td width="15%" class="TD1">维修性质</td> 
+       <td width="9%" class="TD1">维修人</td>
+       <td width="9%" class="TD1">备注</td>
+      </tr>   
+      <tr>
+       <td>5</td>
+       <td><label class="Wdate" onClick="WdatePicker()">2014-12-12</label></td>
+       <td>上海</td>
+       <td>梁先生</td>
+       <td class="CC"><input type="text" id="System1" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('System1','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('System1','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('System1','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td class="CC"><input type="text" id="ZhengTT1" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('ZhengTT1','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('ZhengTT1','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('ZhengTT1','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td>梁先生</td>
+       <td>电脑录入</td>
+      </tr> 
+      <tr>
+       <td class="TD2">5</td>
+       <td class="TD2"><label class="Wdate" style="background-color:#00FFFF" onClick="WdatePicker()">2014-12-12</label></td>
+       <td class="TD2">上海</td>
+       <td class="TD2">梁先生</td>
+       <td class="CC TD2" style="background-color:#00FFFF"><input type="text" id="System2" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('System2','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('System2','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('System2','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td class="CC TD2" style="background-color:#00FFFF"><input type="text" id="ZhengTT2" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('ZhengTT2','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('ZhengTT2','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('ZhengTT2','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td class="TD2">梁先生</td>
+       <td class="TD2">电脑录入</td>
+      </tr> 
+      <tr>
+       <td>5</td>
+       <td><label class="Wdate" onClick="WdatePicker()">2014-12-12</label></td>
+       <td>上海</td>
+       <td>梁先生</td>
+       <td class="CC"><input type="text" id="System3" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('System3','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('System3','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('System3','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td class="CC"><input type="text" id="ZhengTT3" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('ZhengTT3','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('ZhengTT3','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('ZhengTT3','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td>梁先生</td>
+       <td>电脑录入</td>
+      </tr> 
+      <tr>
+       <td class="TD3">5</td>
+       <td class="TD3"><label class="Wdate"  style=" background-color:#FFFF00;" onClick="WdatePicker()">2014-12-12</label></td>
+       <td class="TD3">上海</td>
+       <td class="TD3">梁先生</td>
+       <td class="CC" style=" background-color:#FFFF00;"><input type="text" id="System4" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('System4','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('System4','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('System4','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td class="CC" style=" background-color:#FFFF00;"><input type="text" id="ZhengTT4" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('ZhengTT4','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('ZhengTT4','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('ZhengTT4','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td class="TD3">梁先生</td>
+       <td class="TD3">电脑录入</td>
+      </tr> 
+      <tr>
+       <td>5</td>
+       <td><label class="Wdate" onClick="WdatePicker()">2014-12-12</label></td>
+       <td>上海</td>
+       <td>梁先生</td>
+       <td class="CC"><input type="text" id="System5" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('System5','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('System5','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('System5','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td class="CC"><input type="text" id="ZhengTT5" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('ZhengTT5','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('ZhengTT5','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('ZhengTT5','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td>梁先生</td>
+       <td>电脑录入</td>
+      </tr>  
+      <tr>
+       <td>5</td>
+       <td><label class="Wdate" onClick="WdatePicker()">2014-12-12</label></td>
+       <td>上海</td>
+       <td>梁先生</td>
+       <td class="CC"><input type="text" id="System6" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('System6','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('System6','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('System6','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td class="CC"><input type="text" id="ZhengTT6" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('ZhengTT6','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('ZhengTT6','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('ZhengTT6','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td>梁先生</td>
+       <td>电脑录入</td>
+      </tr>
+      <tr>
+       <td>5</td>
+       <td><label class="Wdate" onClick="WdatePicker()">2014-12-12</label></td>
+       <td>上海</td>
+       <td>梁先生</td>
+       <td class="CC"><input type="text" id="System7" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('System7','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('System7','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('System7','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td class="CC"><input type="text" id="ZhengTT7" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('ZhengTT7','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('ZhengTT7','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('ZhengTT7','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td>梁先生</td>
+       <td>电脑录入</td>
+      </tr>
+      <tr>
+       <td>5</td>
+       <td><label class="Wdate" onClick="WdatePicker()">2014-12-12</label></td>
+       <td>上海</td>
+       <td>梁先生</td>
+       <td class="CC"><input type="text" id="System8" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('System8','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('System8','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('System8','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td class="CC"><input type="text" id="ZhengTT8" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('ZhengTT8','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('ZhengTT8','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('ZhengTT8','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td>梁先生</td>
+       <td>电脑录入</td>
+      </tr>
+      <tr>
+       <td>5</td>
+       <td><label class="Wdate" onClick="WdatePicker()">2014-12-12</label></td>
+       <td>上海</td>
+       <td>梁先生</td>
+       <td class="CC"><input type="text" id="System9" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('System9','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('System9','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('System9','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td class="CC"><input type="text" id="ZhengTT9" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('ZhengTT9','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('ZhengTT9','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('ZhengTT9','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td>梁先生</td>
+       <td>电脑录入</td>
+      </tr>
+      <tr>
+       <td>5</td>
+       <td><label class="Wdate" onClick="WdatePicker()">2014-12-12</label></td>
+       <td>上海</td>
+       <td>梁先生</td>
+       <td class="CC"><input type="text" id="System10" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('System10','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('System10','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('System10','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td class="CC"><input type="text" id="ZhengTT10" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('ZhengTT10','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('ZhengTT10','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('ZhengTT10','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td>梁先生</td>
+       <td>电脑录入</td>
+      </tr>
+      <tr>
+       <td>5</td>
+       <td><label class="Wdate" onClick="WdatePicker()">2014-12-12</label></td>
+       <td>上海</td>
+       <td>梁先生</td>
+       <td class="CC"><input type="text" id="System11" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('System11','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('System11','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('System11','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td class="CC"><input type="text" id="ZhengTT11" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('ZhengTT11','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('ZhengTT11','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('ZhengTT11','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td>梁先生</td>
+       <td>电脑录入</td>
+      </tr>
+      <tr>
+       <td>5</td>
+       <td><label class="Wdate" onClick="WdatePicker()">2014-12-12</label></td>
+       <td>上海</td>
+       <td>梁先生</td>
+       <td class="CC"><input type="text" id="System12" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('System12','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('System12','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('System12','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td class="CC"><input type="text" id="ZhengTT12" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('ZhengTT12','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('ZhengTT12','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('ZhengTT12','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td>梁先生</td>
+       <td>电脑录入</td>
+      </tr>
+      <tr>
+       <td>5</td>
+       <td><label class="Wdate" onClick="WdatePicker()">2014-12-12</label></td>
+       <td>上海</td>
+       <td>梁先生</td>
+       <td class="CC"><input type="text" id="System13" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('System13','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('System13','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('System13','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td class="CC"><input type="text" id="ZhengTT13" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('ZhengTT13','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('ZhengTT13','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('ZhengTT13','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td>梁先生</td>
+       <td>电脑录入</td>
+      </tr>
+      <tr>
+       <td>5</td>
+       <td><label class="Wdate" onClick="WdatePicker()">2014-12-12</label></td>
+       <td>上海</td>
+       <td>梁先生</td>
+       <td class="CC"><input type="text" id="System14" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('System14','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('System14','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('System14','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td class="CC"><input type="text" id="ZhengTT14" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('ZhengTT14','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('ZhengTT14','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('ZhengTT14','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td>梁先生</td>
+       <td>电脑录入</td>
+      </tr>
+      <tr>
+       <td>5</td>
+       <td><label class="Wdate" onClick="WdatePicker()">2014-12-12</label></td>
+       <td>上海</td>
+       <td>梁先生</td>
+       <td class="CC"><input type="text" id="Text19" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('System5','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('System5','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('System5','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td class="CC"><input type="text" id="Text20" value=".net高级程序员" />
+        <div class="DropMuen">
+         <p onclick="OnClickTexts('ZhengTT5','.net程序员')">.net程序员</p>
+         <p onclick="OnClickTexts('ZhengTT5','php程序员')">php程序员</p>
+         <p onclick="OnClickTexts('ZhengTT5','java程序员')">java程序员</p>
+        </div>
+       </td> 
+       <td>梁先生</td>
+       <td>电脑录入</td>
+      </tr>  
+     </table>
+
+     <script type="text/javascript">
+         function OnClickHtml(Tages, Texts) {
+             document.getElementById(Tages).innerHTML = Texts;
+         }
+         function OnClickTexts(Tages, Texts) {
+             document.getElementById(Tages).value = Texts;
+         }
+     </script>
+    </div> 
+   <ul class="ListPage">
+    <li class="TT3">
+     <a href="#"><img src="images/shi4.png" /></a>
+    </li> 
+
+    <li class="TT2"><input type="button" class="IN2" value="打印" /></li>
+    <li class="TT2"><input type="button" class="IN2" value="确定" /></li>
+    <li class="TT2"><input type="button" class="IN2" value="增加" /></li>
+    <li class="TT2"><input type="button" class="IN2" value="查询" /></li>
+    <li class="TT2"><input type="text" class="IN1"  /></li>
+    <li class="TT2"><select><option>姓名</option></select></li>
+    <li class="TT2">按</li>
+    <li class="TT1"><a href="#">下一页</a></li>
+    <li class="TT1"><a href="#">上一页</a></li>
+   </ul>
+
+
+  </td>
+ </tr> 
+</table>
+
+
+</body>
+</html>

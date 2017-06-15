@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title> 
+    <link href="style/style.css" rel="stylesheet" type="text/css" />
+    <script language="javascript" type="text/javascript" src="My97DatePicker/WdatePicker.js"></script> 
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+ <tr>
+  <td  align="left" valign="top" width="240px"> 
+   <iframe id="LeftFrame" src="left.htm" width="230px" style=" border:0px;" ></iframe>
+   <script type="text/javascript">
+       var Heights = document.documentElement.clientHeight;
+       document.getElementById("LeftFrame").style.height = Heights + "px";
+   </script>
+  </td>
+  <td align="left" valign="top"  class="RighrTabf">
+   <div class="ListContent Bordbg">
+     <div class="Titles">清洁计划</div>
+      
+     <table width="100%" cellpadding="0" cellspacing="0"> 
+      <tr>
+       <td width="8%" class="TD1" rowspan="2">分<br/>类</td> 
+       <td width="25%" class="TD1" rowspan="2">项目</td>
+       <td class="TD1" rowspan="2">工作内容</td> 
+       <td width="25%" class="TD1">一级</td> 
+      </tr>  
+      <tr>
+       <td width="15%" class="TD1">频次/要求</td> 
+      </tr>    
+      <tr>
+       <td rowspan="4">生<br/>活<br/>垃<br/>圾</td> 
+       <td>垃圾清运车</td>
+       <td>清运</td> 
+       <td>一次/月</td> 
+      </tr> 
+      <tr>
+       <td>垃圾清运车</td>
+       <td>清运</td> 
+       <td class="TD2">一次/月</td> 
+      </tr> 
+      <tr>
+       <td>垃圾清运车</td>
+       <td>清运</td> 
+       <td>一次/月</td> 
+      </tr> 
+      <tr>
+       <td>垃圾清运车</td>
+       <td>清运</td> 
+       <td>一次/月</td> 
+      </tr>  
+      <tr>
+       <td rowspan="6">大<br/>堂<br/>、<br/>一<br/>层<br/>候<br/>梯<br/>厅</td> 
+       <td rowspan="2">垃圾清运车</td>
+       <td>清运</td> 
+       <td>一次/月</td> 
+      </tr> 
+      <tr>
+       <td>清运</td> 
+       <td>一次/月</td> 
+      </tr> 
+      <tr>
+       <td>垃圾清运车</td>
+       <td>清运</td> 
+       <td>一次/月</td> 
+      </tr> 
+      <tr>
+       <td>垃圾清运车</td>
+       <td>清运</td> 
+       <td>一次/月</td> 
+      </tr> 
+      <tr>
+       <td>垃圾清运车</td>
+       <td>清运</td> 
+       <td>一次/月</td> 
+      </tr> 
+      <tr>
+       <td>垃圾清运车</td>
+       <td>清运</td> 
+       <td>一次/月</td> 
+      </tr> 
+      <tr>
+       <td rowspan="6">楼<br/>道<br/>、<br/>楼<br/>梯</td> 
+       <td rowspan="3">垃圾清运车</td>
+       <td>清运</td> 
+       <td>一次/月</td> 
+      </tr> 
+      <tr>
+       <td>清运</td> 
+       <td>一次/月</td> 
+      </tr> 
+      <tr>
+       <td>清运</td> 
+       <td>一次/月</td> 
+      </tr> 
+      <tr>
+       <td>垃圾清运车</td>
+       <td>清运</td> 
+       <td>一次/月</td> 
+      </tr> 
+      <tr>
+       <td>垃圾清运车</td>
+       <td>清运</td> 
+       <td>一次/月</td> 
+      </tr> 
+      <tr>
+       <td>垃圾清运车</td>
+       <td>清运</td> 
+       <td>一次/月</td> 
+      </tr>  
+      <tr>
+       <td rowspan="5">电<br/>梯<br/>轿<br/>厢</td> 
+       <td>垃圾清运车</td>
+       <td>清运</td> 
+       <td>一次/月</td> 
+      </tr> 
+      <tr>
+       <td>垃圾清运车</td>
+       <td>清运</td> 
+       <td>一次/月</td> 
+      </tr> 
+      <tr>
+       <td>垃圾清运车</td>
+       <td>清运</td> 
+       <td>一次/月</td> 
+      </tr> 
+      <tr>
+       <td>垃圾清运车</td>
+       <td>清运</td> 
+       <td>一次/月</td> 
+      </tr> 
+      <tr>
+       <td>垃圾清运车</td>
+       <td>清运</td> 
+       <td>一次/月</td> 
+      </tr>
+      <tr>
+       <td colspan="6" class="TD1"></td>
+      </tr> 
+     </table>
+
+     <script type="text/javascript">
+         function OnClickHtml(Tages, Texts) {
+             document.getElementById(Tages).innerHTML = Texts;
+         }
+         function OnClickTexts(Tages, Texts) {
+             document.getElementById(Tages).value = Texts;
+         }
+     </script>
+    </div> 
+
+   <ul class="ListPage">
+    
+    <li class="TT2"><input type="button" class="IN2" value="打印" /></li>
+    <li class="TT2"><input type="button" class="IN2" value="查询" /></li>
+    <li class="TT2"><input type="text" class="IN1" /></li>
+    <li class="TT2"><select><option>姓名</option></select></li>
+    <li class="TT2">按</li>
+    <li class="TT1"><a href="#">下一页</a></li>
+    <li class="TT1"><a href="#">上一页</a></li>
+   </ul>
+  </td>
+ </tr> 
+</table>
+
+
+</body>
+</html>

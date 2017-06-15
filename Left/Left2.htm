@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../style/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body > 
+<div class="LeftTitle">设备管理</div>
+<div class="Left_Content">
+<script type="text/javascript">
+    function OnClickMuen(Count) {
+        if (document.getElementById("LeftMuenCon" + Count).style.display == "none") {
+            document.getElementById("LeftMuenCon" + Count).style.display = "";
+            document.getElementById("LeftMuenTT" + Count).className = "LeftMuenTT2";
+        }
+        else {
+            document.getElementById("LeftMuenCon" + Count).style.display = "none";
+            document.getElementById("LeftMuenTT" + Count).className = "LeftMuenTT";
+        }
+    }
+    function OnClickMuenP(Count) {
+        if (document.getElementById("LeftMuenNeiCon" + Count).style.display == "none") {
+            document.getElementById("LeftMuenNeiCon" + Count).style.display = "";
+            document.getElementById("LeftMuenNeiTT" + Count).className = "TT2";
+        }
+        else {
+            document.getElementById("LeftMuenNeiCon" + Count).style.display = "none";
+            document.getElementById("LeftMuenNeiTT" + Count).className = "TT1";
+        }
+    }
+</script>
+<div class="LeftMuenTT2" id="LeftMuenTT1" onclick="OnClickMuen('1')">基础管理</div>
+<ul class="LeftMuen" id="LeftMuenCon1">
+ <li class="TT2" ><a href="list.htm" target="main">综合部</a></li> 
+ <li class="TT1" ><a href="list2.htm" target="main">客服部</a></li> 
+ <li class="TT2" ><a href="list.htm" target="main">综合部</a></li> 
+ <li class="TT1" ><a href="list2.htm" target="main">客服部</a></li> 
+ <li class="TT2" ><a href="list.htm" target="main">综合部</a></li> 
+ <li class="TT1" ><a href="list2.htm" target="main">客服部</a></li> 
+</ul>
+<div class="LeftMuenTT" id="LeftMuenTT2" onclick="OnClickMuen('2')">强电系统</div>
+<ul class="LeftMuen" id="LeftMuenCon2" style=" display:none;">
+ <li class="TT2" ><a href="list.htm" target="main">综合部</a></li> 
+ <li class="TT1" ><a href="list2.htm" target="main">客服部</a></li> 
+ <li class="TT2" ><a href="list.htm" target="main">综合部</a></li> 
+ <li class="TT1" ><a href="list2.htm" target="main">客服部</a></li> 
+ <li class="TT2" ><a href="list.htm" target="main">综合部</a></li> 
+ <li class="TT1" ><a href="list2.htm" target="main">客服部</a></li> 
+</ul>
+<div class="LeftMuenTT" id="LeftMuenTT3" onclick="OnClickMuen('3')">强电系统</div>
+<ul class="LeftMuen" id="LeftMuenCon3" style=" display:none;">
+ <li class="TT2" ><a href="list.htm" target="main">综合部</a></li> 
+ <li class="TT1" ><a href="list2.htm" target="main">客服部</a></li> 
+ <li class="TT2" ><a href="list.htm" target="main">综合部</a></li> 
+ <li class="TT1" ><a href="list2.htm" target="main">客服部</a></li> 
+ <li class="TT2" ><a href="list.htm" target="main">综合部</a></li> 
+ <li class="TT1" ><a href="list2.htm" target="main">客服部</a></li> 
+</ul>
+<div class="LeftMuenTT" id="LeftMuenTT4" onclick="OnClickMuen('4')">强电系统</div>
+<ul class="LeftMuen" id="LeftMuenCon4" style=" display:none;">
+ <li class="TT2" ><a href="list.htm" target="main">综合部</a></li> 
+ <li class="TT1" ><a href="list2.htm" target="main">客服部</a></li> 
+ <li class="TT2" ><a href="list.htm" target="main">综合部</a></li> 
+ <li class="TT1" ><a href="list2.htm" target="main">客服部</a></li> 
+ <li class="TT2" ><a href="list.htm" target="main">综合部</a></li> 
+ <li class="TT1" ><a href="list2.htm" target="main">客服部</a></li> 
+</ul>
+<div class="LeftMuenTT" id="LeftMuenTT5" onclick="OnClickMuen('5')">强电系统</div>
+<ul class="LeftMuen" id="LeftMuenCon5" style=" display:none;">
+ <li class="TT2" ><a href="list.htm" target="main">综合部</a></li> 
+ <li class="TT1" ><a href="list2.htm" target="main">客服部</a></li> 
+ <li class="TT2" ><a href="list.htm" target="main">综合部</a></li> 
+ <li class="TT1" ><a href="list2.htm" target="main">客服部</a></li> 
+ <li class="TT2" ><a href="list.htm" target="main">综合部</a></li> 
+ <li class="TT1" ><a href="list2.htm" target="main">客服部</a></li> 
+</ul>
+ 
+<div class="LeftMuenTT4" ><a href="#">保安人员岗位分配表</a></div>
+
+<div class="LeftMuenTT3" ><a href="#">退出</a></div>
+
+</div>
+</body>
+</html>

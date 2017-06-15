@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="style/style.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+</head>
+<body>
+<ul class="TopHead">
+ <li class="TT1"><a href="#"><img src="images/logo.png" /></a></li> 
+</ul>
+<ul class="TopLogin">
+ <li class="TT1">
+  <!-- <p class="PP1">用户：</p>
+   <p class="PP2"><input type="text" /></p>
+   <p class="PP1">物业公司：</p>
+   <p class="PP2"><input type="text" class="IN" /></p> 
+   <p class="PP3"><img src="images/RFightbg.jpg" /></p>-->
+   <p class="PP4">用户：北京赛文斯塔物业管理有限公司 </p>
+   <p class="PP5">欢迎登陆</p>
+   <p class="PP3"><img src="images/RFightbg.jpg" /></p>
+ </li>
+ <li class="TT2">
+  <p><a href="#"><img src="images/Ka1.png" /></a></p>
+  <p><a href="#"><img src="images/Ka2.png" /></a></p>
+  <p><a href="#"><img src="images/Ka3.png" /></a></p>
+  <p><a href="#"><img src="images/Ka4.png" /></a></p>
+  <p><a href="#"><img src="images/Ka5.png" /></a></p>
+  <p><a href="#"><img src="images/Ka6.png" /></a></p>
+ </li>
+</ul>
+<ul class="TopMuen">
+ <li><a href="#">欢迎页面</a></li>
+ <li class="TT1"><a href="#">客户管理</a></li>
+ <li><a href="#">员工管理</a></li>
+ <li><a href="#">设备管理</a></li>
+ <li><a href="#">安全管理</a></li>
+ <li><a href="#">环境管理</a></li>
+ <li><a href="#">待处理事项</a></li>
+ <li><a href="#">帮助</a></li>  
+</ul>
+<script type="text/javascript">
+    $(function () {
+        $(".TopMuen li").click(function () {
+            $(".TopMuen li").attr("class", "");
+            $(this).attr("class", "TT1");
+        })
+    })
+</script>
+
+
+</body>
+</html>
